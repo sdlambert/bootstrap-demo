@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Bootstrap Columns</title>
+		<title>Bootstrap Typography</title>
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -20,6 +20,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
+					<div class="page-header">
+						<h1>Typography</h1>
+					</div>
 					<p>This is a sample of the various typography styles built into the Bootstrap framework.</p>
 					<p>Go back to the <a href="index.html">main menu</a></p>
 					<ul>
@@ -30,12 +33,8 @@
 						<li><a href="#formatting">Text Formatting</a></li>
 						<li><a href="#transformation">Text Transformation</a></li>
 						<li><a href="#blockquotes">Blockquotes</a></li>
-						<li><a href="#">Lists</a></li>
-<!-- 					<li><a href="#copy">Copy</a></li>
-						<li><a href="#copy">Copy</a></li>
-						<li><a href="#copy">Copy</a></li>
-						<li><a href="#copy">Copy</a></li>
-					</ul> -->
+						<li><a href="#lists">Lists</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="row">
@@ -102,7 +101,6 @@
 					<p>An example of all the text formatting styles. This text appears in the default style.</p>
 					<p><b>This is an example of bold text</b></p>
 					<p><strong>This is an example of strongly emphasized text</strong></p>
-					<p><big>This is an example of big text</big></p>
 					<p><small>This is an example of small text</small></p>
 					<p><code>This is an example of computer code</code></p>
 					<p><em>This is an example of emphasized text</em></p>
@@ -164,7 +162,7 @@
 					<ol>
 						<li>Introduction and Thesis Statement</li>
 						<li>Body
-							<ol>
+							<ol style="list-style-type: lower-alpha;">
 								<li>Supporting Argument</li>
 								<li>Supporting Argument</li>
 								<li>Supporting Argument</li>
@@ -179,13 +177,14 @@
 						<li>About</li>
 						<li>Contact</li>
 					</ul>
-					<h3>Description</h3>
+					<h3>Descriptions</h3>
 					<dl>
 						<dt>Aspartame</dt>
 						<dd>Aspartame is an artificial, non-saccharide sweetener used as a sugar substitute in some foods and beverages.</dd>
 						<dt>Phosphoric acid</dt>
 						<dd>Phosphoric acid is a mineral acid having the chemical formula H<sub>3</sub>PO<sub>4</sub>.</dd>
 					</dl>
+					<h4>Horizontal description list</h4>
 					<dl class="dl-horizontal">
 						<dt>Sodium benzoate</dt>
 						<dd>Sodium benzoate has the chemical formula NaC<sub>7</sub>H<sub>5</sub>O<sub>2</sub>; it is a widely used food preservative.</dd>
