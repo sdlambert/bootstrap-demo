@@ -39,7 +39,7 @@
     rangeLbl     = document.getElementById('range-label'),
     colorObj     = {},
     hue,
-    luminosity;</pre>
+    luminosity;  // As you can see, you can place your code in a block</pre>
     				<h3>Sample Output</h3>
     				<samp>This would be how sample output would appear with the &lt;samp&gt; element.</samp>
 				</div>
@@ -51,9 +51,226 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
-					<h3>Table styles</h3>
+					<h3>Basic Table</h3>
+					<p><code>table</code></p>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>First</th>
+								<th>Last</th>
+								<th>Years</th>
+								<th>Show Title</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Steve</td>
+								<td>Allen</td>
+								<td>1954-57</td>
+								<td>Tonight Starring Steve Allen</td>
+							</tr>
+							<tr>
+								<td>Jack</td>
+								<td>Paar</td>
+								<td>1957-62</td>
+								<td>Tonight Starring Jack Paar</td>
+							</tr>
+							<tr>
+								<td>Johnny</td>
+								<td>Carson</td>
+								<td>1962-92</td>
+								<td>The Tonight Show Starring Johnny Carson</td>
+							</tr>
+							<tr>
+								<td>Jay</td>
+								<td>Leno</td>
+								<td>1992-2009*, 2010-14</td>
+								<td>The Tonight Show with Jay Leno</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Condensed Table</h3>
+					<p><code>table</code>&nbsp;<code>table-condensed</code></p>
+					<table class="table table-condensed">
+						<thead>
+							<th>Player</th>
+							<th>Team</th>
+							<th>Total Yds</th>
+							<th>TDs</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Adrian Peterson</td>
+								<td>MIN</td>
+								<td>1485</td>
+								<td>11</td>
+							</tr>
+							<tr>
+								<td>Doug Martin</td>
+								<td>TB</td>
+								<td>1402</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td>Todd Gurley</td>
+								<td>STL</td>
+								<td>1106</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>Darren McFadden</td>
+								<td>DAL</td>
+								<td>1089</td>
+								<td>3</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Bordered Table</h3>
+					<p><code>table</code>&nbsp;<code>table-bordered</code></p>
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th>Manufacturer</th>
+								<th>Class</th>
+								<th>Length</th>
+								<th>Weapons</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Seinar Fleet Systems</td>
+								<td>TIE Fighter</td>
+								<td>8.99m</td>
+								<td>Ls-1 Laser Cannons(2)</td>
+							</tr>
+							<tr>
+								<td>Corellian Engineering Corporation</td>
+								<td>YT-1300 Light Freighter</td>
+								<td>34.52m</td>
+								<td>Laser Cannon Turret</td>
+							</tr>
+							<tr>
+								<td>Incom Corporation</td>
+								<td>X-Wing Starfighter</td>
+								<td>12.5m</td>
+								<td>4 Laser Cannons<br>
+								Proton Torpedo Launcher(s)</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Striped Table</h3>
+					<p><code>table</code>&nbsp;<code>table-striped</code></p>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>Year</th>
+								<th>Award</th>
+								<th>Game</th>
+								<th>Designer</th>
+								<th>Publisher</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>2015</td>
+								<td>Spiel des Jahres</td>
+								<td>Colt Express</td>
+								<td>Christophe Raimbault</td>
+								<td>Ludonaute</td>
+							</tr>
+							<tr>
+								<td>2015</td>
+								<td>Kennerspiel des Jahres</td>
+								<td>Broom Service</td>
+								<td>Andreas Pelikan and Alexander Pfister</td>
+								<td>Ravensburger</td>
+							</tr>
+							<tr>
+								<td>2015</td>
+								<td>Kinderspiel des Jahres</td>
+								<td>Spinderella</td>
+								<td>Roberto Fraga</td>
+								<td>Zoch Verlag</td>
+							</tr>
+							<tr>
+								<td>2014</td>
+								<td>Spiel des Jahres</td>
+								<td>Camel Up</td>
+								<td>Steffen Bogen</td>
+								<td>Eggertspiele</td>
+							</tr>
+							<tr>
+								<td>2014</td>
+								<td>Kennerspiel des Jahres</td>
+								<td>Istanbul</td>
+								<td>Rüdiger Dorn</td>
+								<td>Pegasus Spiele</td>
+							</tr>
+							<tr>
+								<td>2014</td>
+								<td>Kinderspiel des Jahres</td>
+								<td>Ghost Fightin' Treasure Hunters<br>
+								(Geister, Geister, Schatzsuchmeister!)</td>
+								<td>Brian Yu</td>
+								<td>Mattel Games</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Hover Rows</h3>
+					<p><code>table</code>&nbsp;<code>table-hover</code></p>
+					<table class="table table-hover">
+						<thead>
+							<th>House</th>
+							<th>Head</th>
+							<th>Sigil</th>
+							<th>Words</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Stark</td>
+								<td>Eddard</td>
+								<td>Direwolf</td>
+								<td>Winter is Coming</td>
+							</tr>
+							<tr>
+								<td>Lannister</td>
+								<td>Tywin</td>
+								<td>Lion</td>
+								<td>Hear Me Roar!</td>
+							</tr>
+							<tr>
+								<td>Baratheon</td>
+								<td>Robert</td>
+								<td>Stag</td>
+								<td>Ours is the Fury</td>
+							</tr>
+							<tr>
+								<td>Targaryen</td>
+								<td>Viserys</td>
+								<td>Three-headed Dragon</td>
+								<td>Fire and Blood</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
