@@ -29,29 +29,99 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<h2>Basic forms, full width</h2>
-					<p><code>form-group</code>&nbsp;<code>form-control</code>&nbsp;<code>help-block</code></p>
-					<form>
-						<div class="form-group">
-							<label for="inputEmail1">Email address</label>
-							<input type="email" class="form-control" id="inputEmail1">
+					<p>Here is an example of a fill-width form with textual elements.</p>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<p><small class="text-uppercase text-muted"><strong>Relevant classes</strong></small></p>
+							<p><code>form-group</code>&nbsp;<code>form-control</code>&nbsp;<code>help-block</code></p>
+							<p><small class="text-uppercase text-muted"><strong>Example</strong></small></p>
+							<form>
+								<div class="form-group">
+									<label for="inputEmail1">Email address</label>
+									<input type="email" class="form-control" id="inputEmail1" placeholder="yomama@email.com">
+								</div>
+								<div class="form-group">
+									<label for="inputPassword1">Password</label>
+									<input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+								</div>
+								<div class="form-group">
+									<label for="inputFile1">Attachments</label>
+									<input type="file" id="inputFile1">
+									<p class="help-block">Helper text uses the <code>help-block</code> class and appears like so.</p>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox">This is an inline label and checkbox. My width is <code>auto</code>.
+									</label>
+								</div>
+								<button type="submit" class="btn btn-default">Submit</button>
+							</form>
 						</div>
-						<div class="form-group">
-							<label for="inputPassword1">Password</label>
-							<input type="password" class="form-control" id="inputPassword1">
-						</div>
-						<div class="form-group">
-							<label for="inputFile1">Attachments</label>
-							<input type="file" id="inputFile1">
-							<p class="help-block">Helper text uses the <code>help-block</code> class and appears like so.</p>
-						</div>
-						<div class="checkbox">
-							<label>
-								<input type="checkbox">This is an inline label and checkbox. My width is <code>auto</code>.
-							</label>
-						</div>
-						<button type="submit" class="btn btn-default">Submit</button>
-					</form>
+					</div>
 				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>Basic forms, inline</h2>
+					<p>Here is an example of an inline form with visible labels.</p>
+					<div class="panel panel-default">
+							<div class="panel-body">
+							<p><small class="text-uppercase text-muted"><strong>Relevant classes</strong></small></p>
+							<p><code>form-inline</code>&nbsp;<code>form-group</code>&nbsp;<code>form-control</code></p>
+							<p><small class="text-uppercase text-muted"><strong>Example</strong></small></p>
+							<form class="form-inline">
+								<div class="form-group">
+									<label for="inputName2">Name</label>
+									<input type="text" class="form-control" id="inputName2" placeholder="Jane Doe">
+								</div>
+								<div class="form-group">
+									<label for="inputEmail2">Email</label>
+									<input type="email" class="form-control" id="inputEmail2" placeholder="Jane.Doe@email.com">
+								</div>
+								<button type="submit" class="btn btn-default">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>Basic forms, inline w/ hidden labels</h2>
+					<p>Here is an example of an inline form with hidden labels. Uses a screen-reader only class to ensure compatibility with those devices.</p>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<p><code>form-inline</code>&nbsp;<code>form-group</code>&nbsp;<code>form-control</code>&nbsp;<code>sr-only</code></p>
+							<form class="form-inline">
+								<div class="form-group">
+									<label for="inputemail3" class="sr-only">Name</label>
+									<input type="email" class="form-control" id="inputemail3" placeholder="John.Doe@email.com">
+								</div>
+								<div class="form-group">
+									<label for="inputPassword3" class="sr-only">Email</label>
+									<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+								</div>
+								<div class="checkbox">
+								  <label>
+								    <input type="checkbox">Check this box.
+								  </label>
+								</div>
+								<button type="submit" class="btn btn-default">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+
+			</div>
+			<div class="row">
+
+			</div>
+			<div class="row">
+
+			</div>
+			<div class="row">
+
 			</div>
 		</div>
 
